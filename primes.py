@@ -7,7 +7,7 @@ def divisible_by_any(number, list):
 
 def primes(number_of_primes):
     if number_of_primes <=0:
-        raise ValueError
+        raise ValueError("The number of primes in the list must be positive!")
     else:
         prime_list = []
         prime_list.append(2)
